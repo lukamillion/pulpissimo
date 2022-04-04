@@ -15,7 +15,7 @@
  */
 
 // SOC PERIPHERALS APB BUS PARAMETRES
-`define NB_MASTER  11
+`define NB_MASTER  13
 
 // MASTER PORT TO FLL
 `define FLL_START_ADDR           32'h1A10_0000
@@ -58,6 +58,10 @@
 
 `define DUMMY_START_ADDR         32'h1A12_0000
 `define DUMMY_END_ADDR           32'h1A12_0008
+
+`define TCLS_START_ADDR          32'h1A13_0000
+`define TCLS_END_ADDR            32'h1A13_0FFF
+
 
 
 `define APB_ASSIGN_SLAVE(lhs, rhs)     \

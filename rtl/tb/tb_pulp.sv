@@ -23,7 +23,7 @@ module tb_pulp;
   // simulation platform parameters
 
   // Choose your core: 0 for RISCY, 1 for IBEX RV32IMC (formerly ZERORISCY), 2 for IBEX RV32EC (formerly MICRORISCY)
-  parameter CORE_TYPE = 0;
+  parameter CORE_TYPE = 1;
 
   // if RI5CY is instantiated (CORE_TYPE == 0), USE_FPU enables the FPU
   parameter USE_FPU = 1;
